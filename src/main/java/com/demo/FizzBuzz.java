@@ -2,9 +2,10 @@ package com.demo;
 
 public class FizzBuzz 
 {
-	String prcessNumber(int num)
-	{
-    	if (num % 15 == 0) {
+    String processNumber(int num)
+    {    
+        // Copy your code here
+        if (num % 15 == 0) {
             return "FizzBuzz";
         }
             else if (num % 3 == 0) {
